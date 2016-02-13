@@ -1,0 +1,54 @@
+/*
+Programa un playground que evalúe un rango de números en base a 4 reglas de impresión.
+Generar un rango de 0 a 100, incluye el número 100 en el rango.
+Tienes que iterar el rango completo, utilizando la sentencia for para obtener cada número del rango y aplicar las siguientes reglas de impresión.
+Al evaluar cada número debes aplicar las siguientes reglas:
+- Si el número es divisible entre 5, imprime: # el número  + “Bingo!!!”
+- Si el número es par, imprime: # el número + “par!!!”
+- Si el número es impar, imprime: # el número + “impar!!!”
+- Si el número se encuentra dentro de un rango del 30 al 40, imprime: # el número +  “Viva Swift!!!”
+Debes de usar la interpolación de variables para realizar la impresión de cada número.
+La salida de mensajes dejes tenerla en la consola.
+El proyecto deberá estar en la cuenta de GitHub del alumno
+
+Desarrollado Por: Juan Sebastian Castro 🇨🇴
+*/
+
+import UIKit
+
+var nrango = 0 ... 100
+var i = 0
+
+for i in nrango
+{
+    if i == 0 {
+        print("El numero \(i)")
+    }
+    else {
+        if i % 5 == 0
+            { // valida si el numero es divisible entre 5
+                print("\t Numero ---> 🎈 \(i) BINGO!!!")
+    
+            }
+    
+        if i  % 2 == 0
+            { // Evalua si el numero es Par
+                print("El numero \(i) es PAR!")
+                if i >= 30 && i <= 40
+                    { // imprime Viva Swift si se encuentra entre 30 y 40
+                        print("\t\t El numero \(i) --> 👏🏽Viva Swift!!!!")
+                    }
+        
+            }else{ //Impar
+                print("El numero \(i) es IMPAR!")
+                if i >= 30 && i <= 40
+                    { // imprime Viva Swift si se encuentra entre 30 y 40
+                        print("\t\t El numero \(i) --> 👏🏽Viva Swift!!!!")
+                    }
+            }
+            /*if i >= 30 && i <= 40{  // imprime viva swift si se encuentra entre 30 y 40 SIN importar si es Par o Impar
+                print("Viva Swift!!!!")
+            }*/
+    
+        }
+}
