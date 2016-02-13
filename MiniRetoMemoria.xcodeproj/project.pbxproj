@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0468A39E1C6EDCB800996CE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A39D1C6EDCB800996CE7 /* main.m */; };
+		0468A3A11C6EDCB800996CE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A3A01C6EDCB800996CE7 /* AppDelegate.m */; };
+		0468A3A41C6EDCB800996CE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A3A31C6EDCB800996CE7 /* ViewController.m */; };
+		0468A3A71C6EDCB800996CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0468A3A51C6EDCB800996CE7 /* Main.storyboard */; };
+		0468A3A91C6EDCB800996CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0468A3A81C6EDCB800996CE7 /* Assets.xcassets */; };
+		0468A3AC1C6EDCB800996CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0468A3AA1C6EDCB800996CE7 /* LaunchScreen.storyboard */; };
+		0468A3B71C6EDCB800996CE7 /* MiniRetoMemoriaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A3B61C6EDCB800996CE7 /* MiniRetoMemoriaTests.m */; };
+		0468A3C21C6EDCB800996CE7 /* MiniRetoMemoriaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A3C11C6EDCB800996CE7 /* MiniRetoMemoriaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0468A3B31C6EDCB800996CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0468A3911C6EDCB800996CE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0468A3981C6EDCB800996CE7;
+			remoteInfo = MiniRetoMemoria;
+		};
+		0468A3BE1C6EDCB800996CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0468A3911C6EDCB800996CE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0468A3981C6EDCB800996CE7;
+			remoteInfo = MiniRetoMemoria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0468A3991C6EDCB800996CE7 /* MiniRetoMemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniRetoMemoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0468A39D1C6EDCB800996CE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0468A39F1C6EDCB800996CE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0468A3A01C6EDCB800996CE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0468A3A21C6EDCB800996CE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0468A3A31C6EDCB800996CE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0468A3A61C6EDCB800996CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0468A3A81C6EDCB800996CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0468A3AB1C6EDCB800996CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0468A3AD1C6EDCB800996CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0468A3B21C6EDCB800996CE7 /* MiniRetoMemoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniRetoMemoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0468A3B61C6EDCB800996CE7 /* MiniRetoMemoriaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniRetoMemoriaTests.m; sourceTree = "<group>"; };
+		0468A3B81C6EDCB800996CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0468A3BD1C6EDCB800996CE7 /* MiniRetoMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniRetoMemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0468A3C11C6EDCB800996CE7 /* MiniRetoMemoriaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniRetoMemoriaUITests.m; sourceTree = "<group>"; };
+		0468A3C31C6EDCB800996CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0468A3961C6EDCB800996CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0468A3AF1C6EDCB800996CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0468A3BA1C6EDCB800996CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0468A3901C6EDCB800996CE7 = {
+			isa = PBXGroup;
+			children = (
+				0468A39B1C6EDCB800996CE7 /* MiniRetoMemoria */,
+				0468A3B51C6EDCB800996CE7 /* MiniRetoMemoriaTests */,
+				0468A3C01C6EDCB800996CE7 /* MiniRetoMemoriaUITests */,
+				0468A39A1C6EDCB800996CE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0468A39A1C6EDCB800996CE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0468A3991C6EDCB800996CE7 /* MiniRetoMemoria.app */,
+				0468A3B21C6EDCB800996CE7 /* MiniRetoMemoriaTests.xctest */,
+				0468A3BD1C6EDCB800996CE7 /* MiniRetoMemoriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0468A39B1C6EDCB800996CE7 /* MiniRetoMemoria */ = {
+			isa = PBXGroup;
+			children = (
+				0468A39F1C6EDCB800996CE7 /* AppDelegate.h */,
+				0468A3A01C6EDCB800996CE7 /* AppDelegate.m */,
+				0468A3A21C6EDCB800996CE7 /* ViewController.h */,
+				0468A3A31C6EDCB800996CE7 /* ViewController.m */,
+				0468A3A51C6EDCB800996CE7 /* Main.storyboard */,
+				0468A3A81C6EDCB800996CE7 /* Assets.xcassets */,
+				0468A3AA1C6EDCB800996CE7 /* LaunchScreen.storyboard */,
+				0468A3AD1C6EDCB800996CE7 /* Info.plist */,
+				0468A39C1C6EDCB800996CE7 /* Supporting Files */,
+			);
+			path = MiniRetoMemoria;
+			sourceTree = "<group>";
+		};
+		0468A39C1C6EDCB800996CE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0468A39D1C6EDCB800996CE7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0468A3B51C6EDCB800996CE7 /* MiniRetoMemoriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0468A3B61C6EDCB800996CE7 /* MiniRetoMemoriaTests.m */,
+				0468A3B81C6EDCB800996CE7 /* Info.plist */,
+			);
+			path = MiniRetoMemoriaTests;
+			sourceTree = "<group>";
+		};
+		0468A3C01C6EDCB800996CE7 /* MiniRetoMemoriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0468A3C11C6EDCB800996CE7 /* MiniRetoMemoriaUITests.m */,
+				0468A3C31C6EDCB800996CE7 /* Info.plist */,
+			);
+			path = MiniRetoMemoriaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0468A3981C6EDCB800996CE7 /* MiniRetoMemoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0468A3C61C6EDCB800996CE7 /* Build configuration list for PBXNativeTarget "MiniRetoMemoria" */;
+			buildPhases = (
+				0468A3951C6EDCB800996CE7 /* Sources */,
+				0468A3961C6EDCB800996CE7 /* Frameworks */,
+				0468A3971C6EDCB800996CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniRetoMemoria;
+			productName = MiniRetoMemoria;
+			productReference = 0468A3991C6EDCB800996CE7 /* MiniRetoMemoria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0468A3B11C6EDCB800996CE7 /* MiniRetoMemoriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0468A3C91C6EDCB800996CE7 /* Build configuration list for PBXNativeTarget "MiniRetoMemoriaTests" */;
+			buildPhases = (
+				0468A3AE1C6EDCB800996CE7 /* Sources */,
+				0468A3AF1C6EDCB800996CE7 /* Frameworks */,
+				0468A3B01C6EDCB800996CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0468A3B41C6EDCB800996CE7 /* PBXTargetDependency */,
+			);
+			name = MiniRetoMemoriaTests;
+			productName = MiniRetoMemoriaTests;
+			productReference = 0468A3B21C6EDCB800996CE7 /* MiniRetoMemoriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0468A3BC1C6EDCB800996CE7 /* MiniRetoMemoriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0468A3CC1C6EDCB800996CE7 /* Build configuration list for PBXNativeTarget "MiniRetoMemoriaUITests" */;
+			buildPhases = (
+				0468A3B91C6EDCB800996CE7 /* Sources */,
+				0468A3BA1C6EDCB800996CE7 /* Frameworks */,
+				0468A3BB1C6EDCB800996CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0468A3BF1C6EDCB800996CE7 /* PBXTargetDependency */,
+			);
+			name = MiniRetoMemoriaUITests;
+			productName = MiniRetoMemoriaUITests;
+			productReference = 0468A3BD1C6EDCB800996CE7 /* MiniRetoMemoriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0468A3911C6EDCB800996CE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Juan Sebastian Castro";
+				TargetAttributes = {
+					0468A3981C6EDCB800996CE7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0468A3B11C6EDCB800996CE7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0468A3981C6EDCB800996CE7;
+					};
+					0468A3BC1C6EDCB800996CE7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0468A3981C6EDCB800996CE7;
+					};
+				};
+			};
+			buildConfigurationList = 0468A3941C6EDCB800996CE7 /* Build configuration list for PBXProject "MiniRetoMemoria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0468A3901C6EDCB800996CE7;
+			productRefGroup = 0468A39A1C6EDCB800996CE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0468A3981C6EDCB800996CE7 /* MiniRetoMemoria */,
+				0468A3B11C6EDCB800996CE7 /* MiniRetoMemoriaTests */,
+				0468A3BC1C6EDCB800996CE7 /* MiniRetoMemoriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0468A3971C6EDCB800996CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0468A3AC1C6EDCB800996CE7 /* LaunchScreen.storyboard in Resources */,
+				0468A3A91C6EDCB800996CE7 /* Assets.xcassets in Resources */,
+				0468A3A71C6EDCB800996CE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0468A3B01C6EDCB800996CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0468A3BB1C6EDCB800996CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0468A3951C6EDCB800996CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0468A3A41C6EDCB800996CE7 /* ViewController.m in Sources */,
+				0468A3A11C6EDCB800996CE7 /* AppDelegate.m in Sources */,
+				0468A39E1C6EDCB800996CE7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0468A3AE1C6EDCB800996CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0468A3B71C6EDCB800996CE7 /* MiniRetoMemoriaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0468A3B91C6EDCB800996CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0468A3C21C6EDCB800996CE7 /* MiniRetoMemoriaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0468A3B41C6EDCB800996CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0468A3981C6EDCB800996CE7 /* MiniRetoMemoria */;
+			targetProxy = 0468A3B31C6EDCB800996CE7 /* PBXContainerItemProxy */;
+		};
+		0468A3BF1C6EDCB800996CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0468A3981C6EDCB800996CE7 /* MiniRetoMemoria */;
+			targetProxy = 0468A3BE1C6EDCB800996CE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0468A3A51C6EDCB800996CE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0468A3A61C6EDCB800996CE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0468A3AA1C6EDCB800996CE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0468A3AB1C6EDCB800996CE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0468A3C41C6EDCB800996CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0468A3C51C6EDCB800996CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0468A3C71C6EDCB800996CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniRetoMemoria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.MiniRetoMemoria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0468A3C81C6EDCB800996CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniRetoMemoria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.MiniRetoMemoria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0468A3CA1C6EDCB800996CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniRetoMemoriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.MiniRetoMemoriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniRetoMemoria.app/MiniRetoMemoria";
+			};
+			name = Debug;
+		};
+		0468A3CB1C6EDCB800996CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniRetoMemoriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.MiniRetoMemoriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniRetoMemoria.app/MiniRetoMemoria";
+			};
+			name = Release;
+		};
+		0468A3CD1C6EDCB800996CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiniRetoMemoriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.MiniRetoMemoriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniRetoMemoria;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0468A3CE1C6EDCB800996CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiniRetoMemoriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.MiniRetoMemoriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniRetoMemoria;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0468A3941C6EDCB800996CE7 /* Build configuration list for PBXProject "MiniRetoMemoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0468A3C41C6EDCB800996CE7 /* Debug */,
+				0468A3C51C6EDCB800996CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0468A3C61C6EDCB800996CE7 /* Build configuration list for PBXNativeTarget "MiniRetoMemoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0468A3C71C6EDCB800996CE7 /* Debug */,
+				0468A3C81C6EDCB800996CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0468A3C91C6EDCB800996CE7 /* Build configuration list for PBXNativeTarget "MiniRetoMemoriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0468A3CA1C6EDCB800996CE7 /* Debug */,
+				0468A3CB1C6EDCB800996CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0468A3CC1C6EDCB800996CE7 /* Build configuration list for PBXNativeTarget "MiniRetoMemoriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0468A3CD1C6EDCB800996CE7 /* Debug */,
+				0468A3CE1C6EDCB800996CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0468A3911C6EDCB800996CE7 /* Project object */;
+}
