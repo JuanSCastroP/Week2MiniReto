@@ -51,6 +51,7 @@
 		0468A3BD1C6EDCB800996CE7 /* MiniRetoMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniRetoMemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0468A3C11C6EDCB800996CE7 /* MiniRetoMemoriaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniRetoMemoriaUITests.m; sourceTree = "<group>"; };
 		0468A3C31C6EDCB800996CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0468A3CF1C6EDD0400996CE7 /* MiniReto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MiniReto.playground; path = ../MiniReto.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		0468A3901C6EDCB800996CE7 = {
 			isa = PBXGroup;
 			children = (
+				0468A3CF1C6EDD0400996CE7 /* MiniReto.playground */,
 				0468A39B1C6EDCB800996CE7 /* MiniRetoMemoria */,
 				0468A3B51C6EDCB800996CE7 /* MiniRetoMemoriaTests */,
 				0468A3C01C6EDCB800996CE7 /* MiniRetoMemoriaUITests */,
